@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+h1 {
+    font-size: 40px;
+    color: #a91a1a;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h3 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+h4{
+font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 320px;
+    text-align: right;
+}
+
+
+body {
+font-family: 'Raleway', sans-serif;
+background: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614611797_1-p-fon-8-marta-dlya-fotoshopa-1.jpg");
+padding: 30px 0;
+background-position: center;
+}
+
+.ramka { /* рамка по центру */
+    width: 800px;  /* длина*/
+    min-height: 500px;  /* высота (минимальная то есть если не хватит места он сам растянется */
+    border: 10px solid #483a3a; /* боредер сама рамка,  10 пикселей ширина рамки,  соилид цвет*/
+    margin: 0 auto ; /* выровнял по центру, 0 это отступ */
+    background: url("https://i.gifer.com/Cfym.gif"); /* фон */
+    background-size: cover;
+}
+
+.image{
+    height: 50px;
+    width: 5%;
+    background-image: url("https://i.pinimg.com/originals/e7/a0/bb/e7a0bb0053867437d97c8deb047e04db.jpg");
+    background-position: right;
+    background-size: cover;
+}
+
